@@ -1,0 +1,97 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+    <base target="newSpace">
+    <meta charset="utf-8"> 
+    <meta name="author" content="IVIN ROLLY M. ROSE">
+    <meta name="description" content="This is all about the possible metadata">
+    <title> My Future Travels </title> 
+    <script language="JavaScript">
+        function writeText (txt) {
+        document.getElementById("desc").innerHTML=txt;
+        }
+        function dissolveText (txt) {
+        document.getElementById("desc").innerHTML=txt;
+        }
+        </script>
+    <link rel="icon" href="Future Travels.png">
+    <style type="text/css">
+        body{
+            background-image:url('bg.png');
+			background-position:center;
+        }
+        h1.title{
+            font-family: Georgia, 'Times New Roman', Times, serif; text-align: center; 
+            color: #ffffff; 
+            text-shadow: 6px 6px 6px rgb(83, 83, 83); 
+            background-color: black;
+        }
+        .back{
+        float: center;
+        height: 40px;
+        width: 40px;
+        background-color:black;
+        border-radius: 100px;
+        }
+        .back:hover{
+        background-color: white;
+        width:40px;
+        height:40px;
+        font-style:oblique;
+        border-radius: 100px;
+        box-shadow:10px 10px 45px 5px mediumblue;
+        }
+        .WM{
+            border-radius: 15px;
+        }
+
+        p.desc{
+        text-align: center;
+        font-family: 'Fredoka', sans-serif;
+        color: white; 
+        background-color: black;
+        font-size: 35px;
+        }
+    </style> 
+</head>
+<body>
+    <div style="border:10px solid black; width: 99%; background-color:white;">
+    <h1 class="title"><br> My Future Travels <br><br></h1>
+</div>
+<br><br><br>
+
+<div align="center">
+    <img class="WM" src="WM.png" alt="WORLD MAP." 
+    title="5 places that I want to go to in the future." usemap="#places">
+    <map name="places">
+        
+        <area shape="rect" coords="135,149,233,198" href="SPAIN.html" 
+        onMouseOver="writeText('The Sagrada Família is Antoni Gaudís best-known work and has become an undisputed symbol of Barcelona.');" 
+        onMouseOut="dissolveText('');">
+        
+        <area shape="rect" coords="30,123,127,171" href="USA.html" 
+        onMouseOver="writeText('The Statue of Liberty is one of the very greatest landmarks in all of America and all of the world.');" 
+        onMouseOut="dissolveText('');">
+        
+        <area shape="rect" coords="243,143,338,188" href="ITALY.html" 
+        onMouseOver="writeText('The Grand Canal is the largest and most famous of these waterways, cutting a wide S-shaped route through the city.');" 
+        onMouseOut="dissolveText('');">
+        
+        <area shape="rect" coords="176,80,273,126," 
+        href="FRANCE.html" 
+        onMouseOver="writeText('The French capital is one of the most romantic cities in Europe and one of the worlds most visited cities');" 
+        onMouseOut="dissolveText('');">
+        
+        <area shape="rect" coords="152,18,251,66" 
+        href="UNITED KINGDOM.html" 
+        onMouseOver="writeText('The Lake District is well known for its fantastic trails and mountains you can hike, such as Scafell Pike, the highest mountain in England which stands at 978 metres tall.');" 
+        onMouseOut="dissolveText('');">
+    </map>
+</div>
+<br>
+<p class="desc" id="desc" ></p>
+<br>
+<div align="center">
+    <a href="ROSE_LANDINGPAGE_ITCD.html" ><img src="home.png" class="back" title="Back to Homepage"></a></div>
+</body>
+</html>

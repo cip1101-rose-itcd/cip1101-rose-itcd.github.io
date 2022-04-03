@@ -1,0 +1,229 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8"> 
+    <title>My Bucket List</title>
+    <link rel="icon" href="bucket.png">
+    <style type="text/css">
+        *{
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image:url('bg2.png');
+			background-position:center;
+        }
+        .list{
+            position: relative;
+            background: white;
+            width: 350px;
+            height: 400px;
+            max-width: 100%;
+            max-height: 100%;
+            overflow-x: hidden;
+            overflow-y: scroll;
+            align-items: center;
+        }
+        h4{
+            background-color: midnightblue;
+            color: white;
+            padding: 10px 20px;
+            font-weight: 600;
+            text-align: center;
+        }
+        .list ul{
+            position:relative;
+            padding: 20px;
+        }
+        .list ul li{
+            position:relative;
+            list-style: none;
+            padding: 15px 0;
+            border-bottom: 1px solid black;
+        }
+        .list ul li:last-child{
+            border-bottom: none;
+        }
+        .list ul li label{
+            position:relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+        }
+        .list ul li input{
+            visibility: hidden;
+            appearance: none;
+        }
+        .list ul li label p{
+            position:absolute;
+        }
+        .list ul li label span{
+            position: relative;
+            width: 20px;
+            height: 20px;
+            border: 1px solid white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .list ul li label span:before{
+            content: '';
+            position: absolute;
+            top: 5px;
+            width: 10px;
+            height: 5px;
+            border-left: 2px solid #ccc;
+            border-bottom: 2px solid #ccc;
+            transform: rotate(-40deg);
+        }
+        .list ul li label input:checked ~ p{
+            text-decoration: line-through;
+            color: #ccc;
+        }
+        .list ul li label input:checked ~ span{
+            background-color: midnightblue;
+            border: 1px solid midnightblue;
+        }
+        .list ul li label input:checked ~ span::before{
+            border-left: 2px solid white;
+            border-bottom: 2px solid white;
+        }
+        .back{
+        float: center;
+        height: 40px;
+        width: 40px;
+        background-color:black;
+        border-radius: 100px;
+        }
+        .back:hover{
+        background-color: white;
+        width:40px;
+        height:40px;
+        font-style:oblique;
+        border-radius: 100px;
+        box-shadow:10px 10px 45px 5px mediumblue;
+        }
+        h1.title{
+            font-family: Georgia, 'Times New Roman', Times, serif; text-align: center; color: #ffffff; text-shadow: 6px 6px 6px rgb(83, 83, 83); background-color: rgb(0, 0, 95);
+        }
+        
+        
+        </style>
+</head> 
+<body> 
+    <div>
+        <br>
+        <hr width="100%" size="8" color="midnightblue" align="left" >
+        <br>
+        <div><h1 class="title">My Bucket List</h1></div>
+        <br>
+        <hr width="100%" size="8" color="midnightblue" align="left" >
+        <br><br><br><br>
+        <div><h4><br>The Best Things to Do Before You Die<br><br></h4></div>
+    
+    <div class="list">
+      <ul> 
+           <li> 
+              <label>
+                  <input type="checkbox" name=""> 
+                  <p>1). Swim with whale sharks</p>
+                  <span></span> 
+               </label> 
+            </li> 
+            <li> 
+                <label>
+                    <input type="checkbox" name=""> 
+                    <p>2). Go on a cruise</p>
+                    <span></span> 
+                 </label> 
+              </li> 
+            <li> 
+                <label>
+                    <input type="checkbox" name=""> 
+                    <p>3). Float in the Dead Sea</p>
+                    <span></span> 
+                 </label> 
+            </li> 
+            <li> 
+                <label>
+                    <input type="checkbox" name=""> 
+                    <p>4). Go to Disneyland</p>
+                    <span></span> 
+                 </label> 
+            </li>
+            <li> 
+                <label>
+                    <input type="checkbox" name=""> 
+                    <p>5). Visit every continent</p>
+                    <span></span> 
+                 </label> 
+            </li>  
+            <li> 
+                <label>
+                    <input type="checkbox" name=""> 
+                    <p>6). Safari in Africa</p>
+                    <span></span> 
+                 </label> 
+            </li> 
+            <li> 
+                <label>
+                    <input type="checkbox" name=""> 
+                    <p>7). Climb a mountain</p>
+                    <span></span> 
+                 </label> 
+            </li> 
+            <li> 
+                <label>
+                    <input type="checkbox" name=""> 
+                    <p>8). Start your business</p>
+                    <span></span> 
+                 </label> 
+            </li> 
+            <li> 
+                <label>
+                    <input type="checkbox" name=""> 
+                    <p>9). Do volunteer work</p>
+                    <span></span> 
+                 </label> 
+            </li> 
+            <li> 
+                <label>
+                    <input type="checkbox" name=""> 
+                    <p>10). See the Northern Lights</p>
+                    <span></span> 
+                 </label> 
+            </li> 
+            <li> 
+                <label>
+                    <input type="checkbox" name=""> 
+                    <p>11). Play a (new) musical instrument</p>
+                    <span></span> 
+                 </label> 
+            </li> 
+            <li> 
+                <label>
+                    <input type="checkbox" name=""> 
+                    <p>12). Spend at least 6 months in a different country.</p>
+                    <span></span> 
+                 </label> 
+            </li> 
+
+        </ul> 
+    </div> 
+    <br>
+    <div align="center">
+        <a href="ROSE_LANDINGPAGE_ITCD.html" ><img src="home.png" class="back" title="Back to Homepage"></a>
+    </div>
+    </div>
+
+
+</body> 
+</html>

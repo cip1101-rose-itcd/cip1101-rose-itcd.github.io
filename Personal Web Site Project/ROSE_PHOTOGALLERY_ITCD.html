@@ -1,0 +1,295 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+    <meta charset="utf-8"> 
+    <meta name="author" content="IVIN ROLLY M. ROSE">
+    <meta name="description" content="This is all about the possible metadata">
+    <title> PHOTO GALLERY </title> 
+    <script language="JavaScript">
+        function writeText (txt) {
+        document.getElementById("desc").innerHTML=txt;
+        }
+        function dissolveText (txt) {
+        document.getElementById("desc").innerHTML=txt;
+        }
+        </script>
+    <link rel="icon" href="photogallery.png">
+    <style type="text/css">
+        
+        h1.title{
+            font-family: Georgia, 'Times New Roman', Times, serif; text-align: center; color: #ffffff; text-shadow: 6px 6px 6px rgb(83, 83, 83); background-color: rgb(0, 0, 95);
+        }
+
+        h2 {
+	       background-color:white;
+	       text-align:center;
+	       padding:25px;
+	       margin-top:0;
+        }
+
+        .category:link {
+	    text-decoration:none;
+	    color:blue;
+	    font-family: "Cormorant unicase", Georgia, Serif;
+	    font-size:30px;
+        }
+		
+        .category:visited{
+	    text-decoration:none;
+	    color:skyblue;
+	    font-family: "Cormorant unicase", Georgia, Serif;
+	    font-size:30px;
+        }
+		
+        .category:hover{
+	    text-decoration:none;
+	    background-color:white;
+	    color:black;
+	    font-family: "Cormorant unicase", Georgia, Serif;
+	    font-size:20px;
+	    padding:28px;
+	    border: 10px ridge blue;
+        box-shadow:10px 10px 45px 5px black;
+        border-radius: 100px;
+        }
+
+        .menu {
+	    display:flex;	
+	    justify-content:space-between;
+	    align-items:center;
+        }
+
+        .vertical{
+        color:black;
+	    width:35px;
+	    word-wrap: break-word;
+	    font-family: Bitter, Georgia, Serif;
+	    font-size:35px;
+	    text-align:center;
+	    margin-right:50px;
+        }
+
+
+        .intro{
+        padding:5px; 
+        font-size:25px;
+        font-family: 'Fredoka', sans-serif;
+        box-shadow:10px 10px 10px 10px black;
+        }
+
+        .cousin{
+        align-items:center;
+        background-color: blue;
+        border: 15px double black;
+        max-width:100%;
+		height: 180px;
+        width: 180px;
+        padding:20px;
+        }
+        
+        .cousin:hover{
+        background-color: blue;
+        border: 15px double black;
+        max-width:100%;
+		height: 190px;
+        width: 190px;
+        box-shadow:8px 8px 8px 8px black;
+        padding:
+        25px;
+        }
+
+
+        .selfies{
+        align-items:center;
+        background-color: cornflowerblue;
+        border: 15px outset cornsilk;
+        max-width:100%;
+		height: 180px;
+        width: 180px;
+        padding:20px;
+        }
+        
+        .selfies:hover{
+        background-color: cornsilk;
+        border: 15px inset cornflowerblue;
+        max-width:100%;
+		height: 190px;
+        width: 190px;
+        box-shadow:8px 8px 8px 8px black;
+        padding:25px;
+        }
+
+        .friends{
+        align-items:center;
+        background-color: rgb(172, 200, 252);
+        border: 15px outset rgb(126, 126, 126);
+        max-width:100%;
+		height: 180px;
+        width: 180px;
+        padding:20px;
+        }
+        
+        .friends:hover{
+        background-color: rgb(126, 126, 126);
+        border: 15px ridge rgb(172, 200, 252);
+        max-width:100%;
+		height: 190px;
+        width: 190px;
+        box-shadow:8px 8px 8px 8px black;
+        padding:25px;
+        }
+
+        .Pets{
+        align-items:center;
+        background-color: rgb(172, 200, 252);
+        border: 15px outset rgb(126, 126, 126);
+        max-width:100%;
+		height: 380px;
+        width: 330px;
+        padding:20px;
+        }
+
+
+        .back{
+        float: center;
+        height: 60px;
+        width: 60px;
+        }
+        
+        .back:hover{
+        background-color:black;
+        width:30px;
+		height:30px;
+		font-style:oblique;
+		padding:10px;
+        box-shadow:10px 10px 45px 5px black;
+        border-radius: 100px;
+        }
+
+        p#desc{
+        font-family:Verdana, Tahoma, Sans-serif;
+        color: midnightblue;
+        text-shadow: 6px 6px 6px rgb(83, 83, 83);
+        text-align: center; 
+    }
+    p{
+        text-align: center;
+        font-family: 'Fredoka', sans-serif;
+    }
+
+
+        
+        
+
+
+    
+    </style> 
+</head>
+<body>
+    <!--ROSE, IVIN ROLLY M.--> 
+    <!--18/03/2022-->
+    <h1 class="title"><br> Ivin Rose's Photo Gallery <br><br></h1>
+    <br>
+    <div style="border:8px solid rgb(0, 0, 95); width: 99%; background-color:white">
+        <br>
+        <div>
+        <h2>
+            <a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="ROSE_LANDINGPAGE_ITCD.html" class="category">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#Cousin" class="category">Cousin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#Selfies" class="category">Selfies</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#Friends" class="category">Friends</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </h2>
+       </div> 
+    </div>
+    <br><br><br>
+
+    <div class="menu">
+
+        <div style="border:8px solid rgb(0, 0, 95); width: 3%; background-color:whitesmoke">
+			<p class="vertical">PHOTO</p>
+		</div>
+        
+		<div class="intro" style="border:8px solid rgb(0, 0, 95); width: 50%; background-color:white"> 
+			<blockquote><p><b>Hello!</b> Welcome to my photo album! These are some pictures of me, my friend, 
+                my cousin and my pet that will give you an idea of what kind of person I am.</p></blockquote>
+		</div>
+		<div style="border:8px solid rgb(0, 0, 95); width: 3%; background-color:whitesmoke">
+			<p class="vertical">ALBUM</p>
+		</div>
+	</div>
+    <br>
+    <hr width="100%" size="8" color="midnightblue" align="left" >
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h1 id="Cousin" class="title"><br> COUSIN <br><br></h1>
+    <div style="border:8px solid rgb(0, 0, 95); width: 99%; background-color:white;">
+        <br><br><br><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="c1.png" target="ivin"><img src="c1.png" alt="ME" title="COUSIN" class="cousin"></a>&nbsp;&nbsp;&nbsp;
+        <a href="c2.png" target="ivin"><img src="c2.png" alt="ME" title="COUSIN" class="cousin"></a>&nbsp;&nbsp;&nbsp;
+        <a href="c3.png" target="ivin"><img src="c3.png" alt="ME" title="COUSIN" class="cousin"></a>&nbsp;&nbsp;&nbsp;
+        <a href="c4.png" target="ivin"><img src="c4.png" alt="ME" title="COUSIN" class="cousin"></a>&nbsp;&nbsp;&nbsp;
+        <a href="c5.png" target="ivin"><img src="c5.png" alt="ME" title="COUSIN" class="cousin"></a>&nbsp;&nbsp;&nbsp;
+        <br><br><br><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="c6.png" target="ivin"><img src="c6.png" alt="ME" title="COUSIN" class="cousin"></a>&nbsp;&nbsp;&nbsp;
+        <a href="c7.png" target="ivin"><img src="c7.png" alt="ME" title="COUSIN" class="cousin"></a>&nbsp;&nbsp;&nbsp;
+        <a href="c8.png" target="ivin"><img src="c8.png" alt="ME" title="COUSIN" class="cousin"></a>&nbsp;&nbsp;&nbsp;
+        <a href="c9.png" target="ivin"><img src="c9.png" alt="ME" title="COUSIN" class="cousin"></a>&nbsp;&nbsp;&nbsp;
+        <a href="c10.png" target="ivin"><img src="c10.png" alt="ME" title="COUSIN" class="cousin"></a>&nbsp;&nbsp;&nbsp;
+        <br><br><br><br><br><br><br>
+        <div align="center">
+            <a href="#top" ><img src="backtotop.png" class="back" title="Back to Top"></a></div>
+            <br><br>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h1 id="Selfies" class="title"><br> SELFIES <br><br></h1>
+    <div style="border:8px solid rgb(0, 0, 95); width: 99%; background-color:white;">
+        <br><br><br><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="s1.png" target="ivin"><img src="s1.png" alt="ME" title="SELFIES" class="selfies"></a>&nbsp;&nbsp;&nbsp;
+        <a href="s2.png" target="ivin"><img src="s2.png" alt="ME" title="SELFIES" class="selfies"></a>&nbsp;&nbsp;&nbsp;
+        <a href="s3.png" target="ivin"><img src="s3.png" alt="ME" title="SELFIES" class="selfies"></a>&nbsp;&nbsp;&nbsp;
+        <a href="s4.png" target="ivin"><img src="s4.png" alt="ME" title="SELFIES" class="selfies"></a>&nbsp;&nbsp;&nbsp;
+        <a href="s5.png" target="ivin"><img src="s5.png" alt="ME" title="SELFIES" class="selfies"></a>&nbsp;&nbsp;&nbsp;
+        <br><br><br><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="s6.png" target="ivin"><img src="s6.png" alt="ME" title="SELFIES" class="selfies"></a>&nbsp;&nbsp;&nbsp;
+        <a href="s7.png" target="ivin"><img src="s7.png" alt="ME" title="SELFIES" class="selfies"></a>&nbsp;&nbsp;&nbsp;
+        <a href="s8.png" target="ivin"><img src="s8.png" alt="ME" title="SELFIES" class="selfies"></a>&nbsp;&nbsp;&nbsp;
+        <a href="s9.png" target="ivin"><img src="s9.png" alt="ME" title="SELFIES" class="selfies"></a>&nbsp;&nbsp;&nbsp;
+        <a href="s10.png" target="ivin"><img src="s10.png" alt="ME" title="SELFIES" class="selfies"></a>&nbsp;&nbsp;&nbsp;
+        <br><br><br><br><br><br><br>
+        <div align="center">
+            <a href="#top" ><img src="backtotop.png" class="back" title="Back to Top"></a></div>
+            <br><br>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h1 id="Friends" class="title"><br> FRIENDS <br><br></h1>
+    <div style="border:8px solid rgb(0, 0, 95); width: 99%; background-color:white;">
+        <br><br><br><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="f1.png" target="ivin"><img src="f1.png" alt="ME" title="FRIENDS" class="friends"></a>&nbsp;&nbsp;&nbsp;
+        <a href="f2.png" target="ivin"><img src="f2.png" alt="ME" title="FRIENDS" class="friends"></a>&nbsp;&nbsp;&nbsp;
+        <a href="f3.png" target="ivin"><img src="f3.png" alt="ME" title="FRIENDS" class="friends"></a>&nbsp;&nbsp;&nbsp;
+        <a href="f4.png" target="ivin"><img src="f4.png" alt="ME" title="FRIENDS" class="friends"></a>&nbsp;&nbsp;&nbsp;
+        <a href="f5.png" target="ivin"><img src="f5.png" alt="ME" title="FRIENDS" class="friends"></a>&nbsp;&nbsp;&nbsp;
+        <br><br><br><br><br><br><br>
+        <div align="center">
+            <a href="#top" ><img src="backtotop.png" class="back" title="Back to Top"></a></div>
+            <br><br>
+    </div>
+</body>
+</html>
