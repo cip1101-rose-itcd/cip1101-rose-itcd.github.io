@@ -1,0 +1,99 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    background-color: cornsilk;
+  }
+  .container > * {
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .container {
+    color: black;
+    font-family: helvetica, arial, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-image: url('bg.jpg');
+    background-size: 1000px;
+    border-radius:10px;
+  }
+  
+  fieldset{
+    margin: 2em 0;
+    border: solid 2px black;
+    border-radius: 30px;
+    min-width: 200px;
+    align-content: center;
+    background-color: white;
+  }
+  
+  legend.h{
+    font-size: 50px;
+    padding: 0 .25em;
+    color: red;
+    font-family: "bodoni MT black";
+    padding-bottom: 6px;
+  }
+  legend{
+    font-size: 30px;
+    padding: 0 .25em;
+    color: black;
+    font-family: "Lobster";
+    padding-bottom: 5px;
+  }
+  h3{
+    font-family: "Lobster";
+    color: brown;
+  }
+  
+  .Menu{
+    width: 180px;
+    border-radius: 30px;
+    height: 150px;
+    display: inline-block;
+    padding: 20px;
+  }
+  
+  .Menu2{
+    width: 180px;
+    border-radius: 30px;
+    height: 150px;
+    display: inline-block;
+    padding: 20px;
+    margin-right: 25px;
+    margin-left: 10px;
+  }
+  .Menu3{
+    width: 180px;
+    border-radius: 30px;
+    height: 150px;
+    display: inline-block;
+    padding: 20px;
+    margin-right: 25px;
+    margin-left: 100px;
+  }
+  
+  a{
+    text-align: center;
+  }
+  textarea{
+    min-height: 8em;
+    min-width: 80%;
+    padding: .5em;
+    border: solid 1px #999;
+    border-radius: 4px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    margin-right:.5em;
+    resize:none;
+  }
+  
+  
+  
+  
